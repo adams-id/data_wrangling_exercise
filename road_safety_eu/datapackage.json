@@ -1,0 +1,85 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+      {
+        "name": "european_union_road_safety_facts_and_figures",
+        "path": "https://github.com/adams-id/data_wrangling_exercise/blob/master/road_safety_eu/data/data.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "column1",
+              "type": "string",
+              "format": "default",
+              "title": "Country"
+            },
+            {
+              "name": "column2",
+              "type": "number",
+              "format": "default",
+              "title": "Area"
+            },
+            {
+              "name": "column3",
+              "type": "integer",
+              "format": "default",
+              "title": "Population"
+            },
+            {
+              "name": "column4",
+              "type": "integer",
+              "format": "default",
+              "title": "GDP per capita"
+            },
+            {
+              "name": "column5",
+              "type": "integer",
+              "format": "default",
+              "title": "Population density"
+            },
+            {
+              "name": "column6",
+              "type": "integer",
+              "format": "default",
+              "title": "Vehicle ownership"
+            },
+            {
+              "name": "field7",
+              "type": "integer",
+              "format": "default",
+              "title": "Total road deaths"
+            },
+            {
+              "name": "field8",
+              "type": "integer",
+              "format": "default",
+              "title": "Road deaths per Million Inhabitants"
+            },
+            {
+              "name": "column9",
+              "type": "year",
+              "format": "default",
+              "title": "Year"
+            }
+          ]
+        }
+      }
+    ],
+    "name": "tabular-data-package",
+    "title": "road_safety_eu",
+    "description": "This Road safety dataset encompasses countries in the European Union and their Road Safety facts and figures",
+    "homepage": "https://github.com/adams-id/data_wrangling_exercise",
+    "contributors": [
+      {
+        "title": "Idris Adams",
+        "role": "author"
+      }
+    ],
+    "version": "1.0.0",
+    "licenses": [
+      {
+        "title": "MIT",
+        "path": "https://github.com/adams-id/data_wrangling_exercise/blob/master/LICENSE"
+      }
+    ]
+  }

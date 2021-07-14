@@ -1,5 +1,5 @@
 # Datopian Data Wrangling Junior Software Engineer Challenge
- This script is used to normalize data and return a CSV.
+ This script is used to get a normalized CSV data file of Road Safety Facts and Figures in the EU..
 
 ## Setting up for this project
 To use this project locally, [python](https://www.python.org/downloads/) must be installed.
