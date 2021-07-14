@@ -23,14 +23,9 @@ To use this project locally, [python](https://www.python.org/downloads/) must be
     ```
 
 4. **Running the script:**
-    Run this function to populate CSV 
-    ```py
-    get_data()
-    ```
-
-    In the project root directory, run:
+      In the project root directory, run:
     ```sh
-    python road_safety_eu/scripts/normalize_csv
+    python road_safety_eu/scripts/normalize_csv.py
     ```
 
 ## Script - How it works  
