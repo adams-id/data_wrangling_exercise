@@ -63,4 +63,4 @@ def get_data():
     df.to_csv("road_safety_eu/data/data.csv", sep=',')
     return df
 
-print(get_data())  
+get_data()  
