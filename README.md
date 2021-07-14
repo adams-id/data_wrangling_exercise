@@ -22,7 +22,7 @@ To use this project locally, [python](https://www.python.org/downloads/) must be
     pip install -r requirements.txt
     ```
 
-4. **Running the script**
+4. **Running the script:**
     Run this function to populate CSV 
     ```py
     get_data()
@@ -34,7 +34,6 @@ To use this project locally, [python](https://www.python.org/downloads/) must be
     ```
 
 ## Script - How it works  
-    The function `get_data` contains the technique behind the csv normalization. <br>
-
-    The  `get_data` function takes the wikipedia url and scrapes it for the data necessary by setting the specific table's class attribute. This data is then arranged and filtered according to the requiremnets of the challenge.<br>
-    The resulting dataframe is then populated to a CSV file located in the [data folder 📂](road_safety_eu/data)  
+The function `get_data` contains the technique behind the csv normalization.<br>
+The  `get_data` function takes the wikipedia url and scrapes it for the data necessary by setting the specific table's class attribute. This data is then arranged and filtered according to the requiremnets of the challenge.<br>
+The resulting dataframe is then populated to a CSV file located in the [data folder 📂](road_safety_eu/data)  
